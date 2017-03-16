@@ -5,10 +5,10 @@ Blog post: https://coreos.com/blog/gRPC-protobufs-swagger.html
 To try it all out do this:
 
 ```
-$ go get -u github.com/philips/grpc-gateway-example
-$ grpc-gateway-example serve
-$ grpc-gateway-example echo "my first rpc echo"
-$ curl -X POST -k https://localhost:10000/v1/echo -H "Content-Type: text/plain" -d '{"value": "foo"}'
+go get -u github.com/philips/grpc-gateway-example
+grpc-gateway-example serve
+grpc-gateway-example echo "my first rpc echo"
+curl -X POST -k https://localhost:10000/v1/echo -H "Content-Type: text/plain" -d '{"value": "foo"}'
 {"value":"my REST echo"}
 ```
 
