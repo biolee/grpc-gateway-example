@@ -7,8 +7,8 @@ To try it all out do this:
 ```
 $ git clone https://github.com/philips/grpc-gateway-example.git
 $ glide install
-$ go install ./vender/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
-$ go install ./vender/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
+$ go install ./vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
+$ go install ./vendor/github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 $ go build
 $ grpc-gateway-example serve
 $ grpc-gateway-example echo "my first rpc echo"
