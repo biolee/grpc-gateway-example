@@ -1,0 +1,24 @@
+package: github.com/philips/grpc-gateway-example
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/grpc-ecosystem/grpc-gateway
+  subpackages:
+  - runtime
+  - utilities
+- package: github.com/philips/go-bindata-assetfs
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/genproto
+  subpackages:
+  - googleapis/api/annotations
+- package: google.golang.org/grpc
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - status
